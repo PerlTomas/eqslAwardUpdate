@@ -35,7 +35,7 @@ def bot(usr,pas,callsign, hamid):
         AwardList.append(Award.strip()) # Remove \n
     
     for Award in AwardList: 
-        jitter=random.randint(5,10) # Jitter the time between calls
+        jitter=random.randint(15,30) # Jitter the time between calls
         print(Award)
         br.get(baseurl+Award)
         try: # Handle 'exceptions' https://stackoverflow.com/questions/19200497/python-selenium-webscraping-nosuchelementexception-not-recognized
