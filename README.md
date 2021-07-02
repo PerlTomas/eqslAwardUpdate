@@ -6,7 +6,7 @@ Prerequisites:
 1. Install Selenium. See https://selenium-python.readthedocs.io/installation.html
 2. Install webdriver for your browser described in the same page
 3. Find your HamID number used by eqsl. If you go to the award page and copy the hyperlink to 'Standings' on any award, the number is embedded there after the HamIDTo= tag.
-Like this: https://www.eqsl.cc/QSLCard/eAwardStandings.cfm?CallsignTo=yourcallsign*&HamIDTo=yournumber&Endorsement=eAsia
+Like this: https://www.eqsl.cc/QSLCard/eAwardStandings.cfm?CallsignTo=yourcallsign&HamIDTo=yournumber&Endorsement=eAsia
 
 Call to function:
 python bot("yourusername","yourpassword","yourcallsign", "yourhamid")
