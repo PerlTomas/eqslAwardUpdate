@@ -1,5 +1,5 @@
 This python script will help you update all of your awards in eqsl. You do not have to click on more than 100 hyperlinks anymore :-)
-The script is made for Firefox but should easily be modified for other browsers following the instructions on selenium webpage referenced below.
+The script is made for Firefox but should be easily modified for other browsers following the instructions on selenium webpage referenced below.
 
 Prerequisites:
 
